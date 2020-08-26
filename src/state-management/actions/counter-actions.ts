@@ -6,25 +6,25 @@ export const MINUS_ONE_ASYNC = 'MINUS_ONE_ASYNC';
 type action = () => { type: string }
 
 export const increase : action = () => {
-  return {
-    type: ADD_ONE
-  };
+    return {
+        type: ADD_ONE
+    };
 };
   
 export const decrease : action = () => {
-  return {
-    type: MINUS_ONE
-  };
+    return {
+        type: MINUS_ONE
+    };
 };
 
 export const increase_async : action = () => {
-  return {
-    type: ADD_ONE_ASYNC
-  };
+    return {
+        type: ADD_ONE_ASYNC
+    };
 };
 
 export const decrease_async : action = () => {
-  return {
-    type: MINUS_ONE_ASYNC
-  };
+    return {
+        type: MINUS_ONE_ASYNC
+    };
 };

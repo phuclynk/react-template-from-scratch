@@ -3,7 +3,7 @@ import { counterReducer } from './counter-reducer';
 import { TypedUseSelectorHook, useSelector } from 'react-redux';
 
 export const rootReducer = combineReducers({
-  counter: counterReducer
+    counter: counterReducer
 });
 
 export type RootState = ReturnType<typeof rootReducer>;
